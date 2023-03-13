@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 Hi, I'm Nihal Sheikh. I'm a Computer Science Engineer, a passionate Web Developer and a Tech Enthusiast who is learning to enhance and explore technical knowledge.<br>🌱 I’m currently busy in learning Full Stack Web Development<br> Fun Fact I'm self-motivated and cheerful and I think Bugs🐞 are Features.<br>
+🔭 Hi, I'm Nihal Sheikh. I'm a Computer Science Engineer, a passionate Web Developer and a Tech Enthusiast who is learning to enhance and explore technical knowledge. I'm self-motivated and cheerful.<br>🌱 I’m currently busy in learning Full Stack Web Development<br> Fun Fact - Bugs🐞 are Features.<br>
 
 <img align="right" alt="coding" width="400" src="https://media.tenor.com/2uyENRmiUt0AAAAC/coding.gif">
 
