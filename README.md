@@ -54,10 +54,10 @@
 
 # 👨🏻‍💻 Projects:
 <a href="https://moviesme-react.netlify.app/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nihalsheikh&repo=moviesme&theme=dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nihalsheikh&repo=movies.me&theme=dark" />
 </a>
 <a href="https://clone-7deae.firebaseapp.com/#/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nihalsheikh&repo=todo&theme=dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nihalsheikh&repo=Project-Resto&theme=dark" />
 </a>
 
 <br>
