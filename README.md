@@ -27,7 +27,7 @@
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://flowcv.me/nihalsheikh) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nihalsheikh/)
 
 <!-- Visit Counter -->
-[![](https://visitcount.itsvg.in/api?id=sheikhnihal&icon=5&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=nihalsheikh&icon=5&color=0)](https://visitcount.itsvg.in)
 
 <br>
 
@@ -47,17 +47,17 @@
 
 <!-- Stats shown here -->
 # 📊 GitHub Stats:
-| ![](https://github-readme-stats.vercel.app/api?username=sheikhnihal&theme=algolia&hide_border=false&include_all_commits=true&count_private=false) | ![](https://github-readme-streak-stats.herokuapp.com/?user=sheikhnihal&theme=algolia&hide_border=false) |
+| ![](https://github-readme-stats.vercel.app/api?username=nihalsheikh&theme=algolia&hide_border=false&include_all_commits=true&count_private=false) | ![](https://github-readme-streak-stats.herokuapp.com/?user=nihalsheikh&theme=algolia&hide_border=false) |
 | ------------------ | ----------------- |
 
 <br>
 
 # 👨🏻‍💻 Projects:
 <a href="https://moviesme-react.netlify.app/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sheikhnihal&repo=moviesme&theme=dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nihalsheikh&repo=moviesme&theme=dark" />
 </a>
 <a href="https://clone-7deae.firebaseapp.com/#/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sheikhnihal&repo=todo&theme=dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nihalsheikh&repo=todo&theme=dark" />
 </a>
 
 <br>
