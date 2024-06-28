@@ -39,7 +39,7 @@
 
 | Languages | Frameworks | Databases | Core |
 |-|-|-|-|
-| None | None | None | None |
+| C | None | None | None |
 
 <br>
 <!-- Stats shown here -->
