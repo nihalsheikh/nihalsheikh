@@ -39,7 +39,7 @@
 
 | Languages | Frameworks | Databases | Core |
 |-|-|-|-|
-| C | None | None | None |
+| C, Java | None | None | None |
 
 <br>
 <!-- Stats shown here -->
