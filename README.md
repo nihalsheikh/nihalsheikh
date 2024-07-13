@@ -7,16 +7,6 @@
 <!-- Side Gif added here-->
 <img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-<p align="left">
-  Welcome to my focused self-learning journey to become a better developer! <br>
-  Goals: <br>
-    - Mastering the fundamental programming concepts <br>
-    - Build projects to solidify understanding <br>
-    - Learn core subjects DSA/OOPS/CN <br>
-    - Practice on Leetcode/Hackerrank/etc
-    - Contribute to open-source projects <br>
-  <br>
-</p>
 
 <br>
 
