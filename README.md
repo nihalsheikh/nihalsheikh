@@ -29,7 +29,7 @@
 
 | Languages | Frameworks | Databases | Core |
 |-|-|-|-|
-| Java, HTML, CSS, JavaScript, ReactJS | None | None | None |
+| Java, HTML, CSS, JavaScript, ReactJS | Bootstrap, TailwindCSS | SQL | DSA |
 
 <br>
 <!-- Stats shown here -->
