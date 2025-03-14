@@ -29,7 +29,7 @@
 
 | Languages | Frameworks | Databases | Core |
 |-|-|-|-|
-| Java, HTML, CSS | None | None | None |
+| Java, HTML, CSS, JavaScript, ReactJS | None | None | None |
 
 <br>
 <!-- Stats shown here -->
