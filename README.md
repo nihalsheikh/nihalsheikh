@@ -4,7 +4,7 @@
 <!-- INTRODUCTION -->
 <h1 align="left">Hello, World! I'm Nihal Sheikh</h1><img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 32px height = 32px>
 
-<!-- Side Gif added here-->
+<!-- SIDE GIF ADDED HERE -->
 <img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 
