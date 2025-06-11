@@ -10,7 +10,7 @@
 
 <br>
 
-<!-- Social -->
+<!-- SOCIAL NETWORK LINKS -->
 ## 🌐 Connect with me...
 | Platform | Link |
 | - | - |
