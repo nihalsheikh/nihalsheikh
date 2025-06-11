@@ -1,7 +1,7 @@
 <!-- BANNER GIF -->
 ![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
 
-<!-- Intro -->
+<!-- INTRODUCTION -->
 <h1 align="left">Hello, World! I'm Nihal Sheikh</h1><img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 32px height = 32px>
 
 <!-- Side Gif added here-->
