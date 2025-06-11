@@ -23,7 +23,7 @@
 [![](https://visitcount.itsvg.in/api?id=nihalsheikh&icon=5&color=0)](https://visitcount.itsvg.in)
 
 <br>
-<!-- Tech stack image icons added here -->
+<!--TECHSTACK WITH IMAGE ICONS ADDED HERE -->
 
 # 💻 Tech Stacks:
 
