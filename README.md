@@ -47,9 +47,12 @@
 <!-- Stats shown here -->
 
 # 👨🏻‍💻 Projects:
-| TechStack | Link |
-| - | - |
-| None | None |
+| Name | Description | Techstack | Link |
+| ---- | ----------- | --------- | ---- |
+| 01 | - | - | - |
+| 02 | - | - | - |
+| 03 | - | - | - |
+| 04 | - | - | - |
 
 <br>
 
