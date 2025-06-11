@@ -19,7 +19,7 @@
 | Mail | nihalsheikh585@gmail.com |
 
 
-<!-- Visit Counter -->
+<!-- PROFILE VIEW COUNTER -->
 [![](https://visitcount.itsvg.in/api?id=nihalsheikh&icon=5&color=0)](https://visitcount.itsvg.in)
 
 <br>
