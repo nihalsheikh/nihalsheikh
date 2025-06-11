@@ -27,9 +27,21 @@
 
 # 💻 Tech Stacks:
 
-| Languages | Frameworks | Databases | Core |
-|-|-|-|-|
-| Java, HTML, CSS, JavaScript, ReactJS | Bootstrap, TailwindCSS | SQL | DSA |
+| Frontend | Backend | Databases | Core |
+| -------- | ------- | --------- | ---- |
+| HTML5, CSS3, JavaScript | Node, Java, Python | SQL, MongoDB | DSA, OOPS |
+
+<br>
+
+| Languages | Frameworks | Hosting/SaaS |
+| --------- | ---------- | ------------- |
+| HTML5, CSS3, JavaScript, TypeScript, Java, Markdown | TypeScript, React, Bootstrap, TailwindCSS | Vercel, Netlify, AWS, GCP |
+
+<br>
+
+| Automation | DevOps | Mobile Apps | Development Tools |
+| ---------- | ------ | ----------- | ----------------- |
+| Jenkins | NGINX, AWS | React Native | Git, Github, VSCode, Cursor, Eclipse, Webstorm |
 
 <br>
 <!-- Stats shown here -->
