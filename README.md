@@ -39,9 +39,9 @@
 
 <br>
 
-| Automation | DevOps | Mobile Apps | Development Tools |
+| Automation | DevOps | Mobile Apps | CI-CD/Dev Tools |
 | ---------- | ------ | ----------- | ----------------- |
-| Jenkins | NGINX, AWS | React Native | Git, Github, VSCode, Cursor, Eclipse, Webstorm |
+| Jenkins | NGINX, AWS | React Native | Git, Github, VSCode, Cursor, Eclipse, Webstorm, Ubuntu, Linux |
 
 <br>
 <!-- Stats shown here -->
