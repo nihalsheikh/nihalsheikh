@@ -27,21 +27,9 @@
 
 # 💻 Tech Stacks:
 
-| Frontend | Backend | Databases | Core |
-| -------- | ------- | --------- | ---- |
-| HTML5, CSS3, JavaScript | Node, Java, Python | SQL, MongoDB | DSA, OOPS |
-
-<br>
-
-| Languages | Frameworks | Hosting/SaaS |
-| --------- | ---------- | ------------- |
-| HTML5, CSS3, JavaScript, TypeScript, Java, Markdown | TypeScript, React, Bootstrap, TailwindCSS | Vercel, Netlify, AWS, GCP |
-
-<br>
-
-| Automation | DevOps | Mobile Apps | CI-CD/Dev Tools |
-| ---------- | ------ | ----------- | ----------------- |
-| Jenkins | NGINX, AWS | React Native | Git, Github, VSCode, Cursor, Eclipse, Webstorm, Ubuntu, Linux |
+| Languages | Web Dev | Cloud/Hosting | Databases | Dev Tools | Core | Others |
+| --------- | ------- | ------------- | --------- | --------- | ---- | ------ |
+| Python, Java | HTML5, CSS3, JavaScript, TypeScript, Nodejs, Express, React, Nextjs, Bootstrap, Tailwind, REST, API | AWS, GCP, Vercel, Netlify| MySQL, MongoDB | Git, GitHub, VSCode, Cursor, Eclipse, Webstorm, Ubuntu, Linux | DSA, OOPS | Markdown, Apache, Jenkins, Docker, Kubernetes |
 
 <br>
 <!-- Stats shown here -->
