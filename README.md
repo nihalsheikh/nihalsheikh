@@ -16,8 +16,10 @@
 | - | - |
 |![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white) | [Resume ^_^](https://flowcv.me/nihalsheikh) |
 |![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) | [```@nihalsheikh```](https://linkedin.com/in/nihalsheikh/) |
+| Fork You | [```/nihalsheikh```](https://forkyou.dev/user/nihalsheikh) |
 | Twitter/X | [```@sshNihal```](https://x.com/sshNihal) |
 | Mail | [```nihalsheikh585@gmail.com```](mailto:nihalsheikh585@gmail.com) |
+
 
 
 <!-- PROFILE VIEW COUNTER -->
