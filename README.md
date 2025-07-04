@@ -32,7 +32,7 @@
 
 | Languages | Web Dev | Cloud/Hosting | Databases | Dev Tools | Core | Others |
 | --------- | ------- | ------------- | --------- | --------- | ---- | ------ |
-| Python, Java | HTML5, CSS3, JavaScript, TypeScript, Nodejs, Express, React, Nextjs, Bootstrap, Tailwind, REST, API | AWS, GCP, Vercel, Netlify| MySQL, MongoDB | Git, GitHub, VSCode, Cursor, Eclipse, Webstorm, Ubuntu, Linux | DSA, OOPS | Markdown, Apache, Jenkins, Docker, Kubernetes |
+| Python, Java | HTML5, CSS3, JavaScript, TypeScript, Nodejs, Express, React, Nextjs, Bootstrap, Tailwind, REST, API | AWS, GCP, Vercel, Netlify| SQL, MongoDB | Git, GitHub, VSCode, Cursor, Zed, Eclipse, Ubuntu, Linux | DSA, OOPS | Markdown, Apache, Jenkins, Docker, Kubernetes |
 
 <br>
 <!-- Stats shown here -->
