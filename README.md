@@ -2,21 +2,18 @@
 ![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
 
 <!-- INTRODUCTION -->
-<h1 align="left">Hello, World! I'm Nihal Sheikh</h1><img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 32px height = 32px>
-
-<br>
-<br>
+<h1 align="left">Hello, World! I'm Nihal Sheikh</h1>
 
 <!-- SIDE GIF ADDED HERE -->
 <img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 <!-- SOCIAL NETWORK LINKS -->
 ## 🌐 Connect with me...
+
 | Platform | Link |
 | - | - |
 |![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white) | [Resume ^_^](https://flowcv.me/nihalsheikh) |
 |![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) | [```/nihalsheikh```](https://linkedin.com/in/nihalsheikh/) |
-| Fork You | [```@nihalsheikh```](https://forkyou.dev/user/nihalsheikh) |
 | Twitter/X | [```@sshNihal```](https://x.com/sshNihal) |
 | Mail | [```nihalsheikh585@gmail.com```](mailto:nihalsheikh585@gmail.com) |
 
