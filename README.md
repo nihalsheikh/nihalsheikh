@@ -8,7 +8,7 @@
 <img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 <!-- SOCIAL NETWORK LINKS -->
-## 🌐 Connect with me...
+🌐 Connect with me...
 
 | Platform | Link |
 | - | - |
@@ -17,6 +17,7 @@
 | Twitter/X | [```@sshNihal```](https://x.com/sshNihal) |
 | Mail | [```nihalsheikh585@gmail.com```](mailto:nihalsheikh585@gmail.com) |
 
+<br>
 <br>
 <!--TECHSTACK WITH IMAGE ICONS ADDED HERE -->
 
