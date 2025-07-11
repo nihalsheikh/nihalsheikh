@@ -34,6 +34,14 @@
 | --------- | ------- | ------------- | --------- | --------- | ---- | ------ |
 | Python, Java | HTML5, CSS3, JavaScript, TypeScript, Nodejs, Express, React, Nextjs, Bootstrap, Tailwind, REST, API | AWS, GCP, Vercel, Netlify| SQL, MongoDB | Git, GitHub, VSCode, Cursor, Zed, Eclipse, Ubuntu, Linux | DSA, OOPS | Markdown, Apache, Jenkins, Docker, Kubernetes |
 
+## Pacman  Contribution Graph
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nihalsheikh/nihalsheikh/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nihalsheikh/nihalsheikh/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/nihalsheikh/nihalsheikh/output/pacman-contribution-graph.svg">
+</picture>
+
 <br>
 <!-- Stats shown here -->
 
