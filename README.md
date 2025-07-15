@@ -60,34 +60,46 @@
 - 🔭 Currently working on _**Web2**_ and _**Web3**_ Projects
 
 </p>
+
 ---
 
 <!--TECHSTACK WITH IMAGE ICONS ADDED HERE -->
-
 ### ⚙️ Tech Stack:
 
-| Languages | Web Dev | Cloud/Hosting | Databases | Dev Tools | Core | Others |
-| --------- | ------- | ------------- | --------- | --------- | ---- | ------ |
-| Python, Java | HTML5, CSS3, JavaScript, TypeScript, Nodejs, Express, React, Nextjs, Bootstrap, Tailwind, REST, API | AWS, GCP, Vercel, Netlify| SQL, MongoDB | Git, GitHub, VSCode, Cursor, Zed, Eclipse, Ubuntu, Linux | DSA, OOPS | Markdown, Apache, Jenkins, Docker, Kubernetes |
+<!-- New Tech Stack Table -->
+| <img src="https://img.shields.io/static/v1?message=languages&label=&color=FDFD96&logoColor=black&labelColor=&style=for-the-badge" alt="languages" /> | <img src="https://img.shields.io/static/v1?message=web2&label=&color=AEDFF2&logoColor=black&labelColor=&style=for-the-badge" alt="web2" /> <img src="https://img.shields.io/static/v1?message=web3&label=&color=B0E0A8&logoColor=black&labelColor=&style=for-the-badge" alt="web3" /> |
+| -- | -- |
+| [![My Skills](https://skillicons.dev/icons?i=python,java)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,nodejs,express,react,next,bootstrap,tailwind,bun,rust,solidity)](https://skillicons.dev) |
 
+
+| <img src="https://img.shields.io/static/v1?message=devops&label=&color=E6E6FA&logoColor=black&labelColor=&style=for-the-badge" alt="devops" /> | <img src="https://img.shields.io/static/v1?message=databases&label=&color=D4F5DD&logoColor=black&labelColor=&style=for-the-badge" alt="databases" /> | <img src="https://img.shields.io/static/v1?message=others&label=&color=f68c70&logoColor=black&labelColor=&style=for-the-badge" alt="others" /> |
+|-- | -- | -- |
+| [![My Skills](https://skillicons.dev/icons?i=git,github,aws,docker)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=mysql,mongodb)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=linux,bash,markdown,postman,vercel,netlify,vscode)](https://skillicons.dev) |
+
+
+---
 <br>
+<!-- GitHub Stats -->
+<p align="center">
 
 | ![](https://github-readme-stats.vercel.app/api?username=nihalsheikh&theme=gotham&hide_border=true&include_all_commits=false&count_private=false) | ![](https://github-readme-stats.vercel.app/api/top-langs/?username=nihalsheikh&theme=gotham&hide_border=true&include_all_commits=false&count_private=false&layout=compact) |
 | - | - |
+
+</p>
 
 <br>
 <!-- Stats shown here -->
 
 # 👨🏻‍💻 Projects:
-| Name | Description | Techstack | Link |
-| ---- | ----------- | --------- | ---- |
-| 01 | - | - | - |
-| 02 | - | - | - |
-| 03 | - | - | - |
+| <img src="https://img.shields.io/static/v1?message=No.&label=&color=FDFD96&logoColor=black&labelColor=&style=for-the-badge" alt="number" /> | <img src="https://img.shields.io/static/v1?message=Name&label=&color=f68c70&logoColor=black&labelColor=&style=for-the-badge" alt="name_of_project" /> | <img src="https://img.shields.io/static/v1?message=techstack&label=&color=E6E6FA&logoColor=black&labelColor=&style=for-the-badge" alt="techstack" /> | <img src="https://img.shields.io/static/v1?message=github&label=&color=B0E0A8&logoColor=black&labelColor=&style=for-the-badge" alt="github" /> | <img src="https://img.shields.io/static/v1?message=live+link&label=&color=AEDFF2&logoColor=black&labelColor=&style=for-the-badge" alt="live_project_link" /> |
+| ---------- | ---------- | ----------- | ---------- | ---------- |
+| 01 | - | - | - | - |
+| 02 | - | - | - | - |
+| 03 | - | - | - | - |
 
 <br>
 
-<h1 align="middle">
+<h1 align="center">
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
