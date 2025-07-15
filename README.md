@@ -41,7 +41,9 @@
 
 ---
 <!-- About Me -->
-### 👨‍💻 About Me
+### 👨‍💻 About Me:
+
+<p>
 
 - 💫 Exploring _Cloud_ **/** _DevOps_ **/** _Web3_
 <br>
@@ -57,6 +59,7 @@
 
 - 🔭 Currently working on _**Web2**_ and _**Web3**_ Projects
 
+</p>
 ---
 
 <!--TECHSTACK WITH IMAGE ICONS ADDED HERE -->
