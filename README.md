@@ -43,7 +43,19 @@
 <!-- About Me -->
 ### 👨‍💻 About Me
 
-👀 Web3 and Blockchain enthusiast
+- 💫 Exploring _Cloud_ **/** _DevOps_ **/** _Web3_
+<br>
+
+- 💡 Exploring new projects ideas
+<br>
+
+- 👀 AI, Web3 and Blockchain enthusiast
+<br>
+
+- 🚀 Sharing my learnings and grinding on [`Twitter`](https://x.com/sshNihal).
+<br>
+
+- 🔭 Currently working on _**Web2**_ and _**Web3**_ Projects
 
 ---
 
