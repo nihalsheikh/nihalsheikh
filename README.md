@@ -80,12 +80,17 @@
 ---
 <br>
 <!-- GitHub Stats -->
-<p align="center">
+<!-- <p align="center">
+| ![](https://github-readme-stats.vercel.app/api?username=nihalsheikh&theme=gotham&hide_border=true&include_all_commits=false&count_private=false) | - |
+| - |
+</p> -->
 
-| ![](https://github-readme-stats.vercel.app/api?username=nihalsheikh&theme=gotham&hide_border=true&include_all_commits=false&count_private=false) | ![](https://github-readme-stats.vercel.app/api/top-langs/?username=nihalsheikh&theme=gotham&hide_border=true&include_all_commits=false&count_private=false&layout=compact) |
+<div align="center">
+
+| ![GitHub Streak](https://v0-git-hub-streak-score-card-phi.vercel.app/api/card-with-avatar?username=nihalsheikh&theme=%7B%22backgroundColor%22%3A%22%23050B19%22%2C%22textColor%22%3A%22%23FFFFFF%22%2C%22accentColor%22%3A%22%2300CCFF%22%2C%22borderColor%22%3A%22%2300FFFF%22%2C%22waterColor%22%3A%22%2300BFFF%22%2C%22streakColor%22%3A%22%2339FF14%22%7D) | ![](https://github-readme-stats.vercel.app/api/top-langs/?username=nihalsheikh&theme=gotham&hide_border=true&include_all_commits=false&count_private=false&layout=compact)  |
 | - | - |
 
-</p>
+</div>
 
 <br>
 <!-- Stats shown here -->
