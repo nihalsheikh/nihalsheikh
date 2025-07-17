@@ -41,35 +41,34 @@
 
 ---
 <!-- About Me -->
-### 👨‍💻 About Me:
+<h3 style="color:red; font-family:'JetBrains Mono'"> 👨‍💻 About Me:</h3>
 
-<p>
+<ul>
 
 - 💫 Exploring _Cloud_ **/** _DevOps_ **/** _Web3_
-<br>
 
 - 💡 Exploring new projects ideas
-<br>
 
 - 👀 AI, Web3 and Blockchain enthusiast
-<br>
 
 - 🚀 Sharing my learnings and grinding on [`Twitter`](https://x.com/sshNihal).
-<br>
 
 - 🔭 Currently working on _**Web2**_ and _**Web3**_ Projects
 
-</p>
+</ul>
 
 ---
 
 <!--TECHSTACK WITH IMAGE ICONS ADDED HERE -->
 ### ⚙️ Tech Stack:
 
-<!-- New Tech Stack Table -->
+<div align'"center">
+    
 | <img src="https://img.shields.io/static/v1?message=languages&label=&color=FDFD96&logoColor=black&labelColor=&style=for-the-badge" alt="languages" /> | <img src="https://img.shields.io/static/v1?message=web2&label=&color=AEDFF2&logoColor=black&labelColor=&style=for-the-badge" alt="web2" /> <img src="https://img.shields.io/static/v1?message=web3&label=&color=B0E0A8&logoColor=black&labelColor=&style=for-the-badge" alt="web3" /> | <img src="https://img.shields.io/static/v1?message=devops&label=&color=E6E6FA&logoColor=black&labelColor=&style=for-the-badge" alt="devops" /> | <img src="https://img.shields.io/static/v1?message=databases&label=&color=D4F5DD&logoColor=black&labelColor=&style=for-the-badge" alt="databases" /> | <img src="https://img.shields.io/static/v1?message=others&label=&color=f68c70&logoColor=black&labelColor=&style=for-the-badge" alt="others" /> |
 | -- | -- | -- | -- | -- |
-| [![My Skills](https://skillicons.dev/icons?i=python,java)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=ts,nodejs,express)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=react,next,tailwind)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=bootstrap,bun,npm)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=redux,regex,materialui)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=rust,solidity)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=git,github,docker)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=kubernetes,githubactions,heroku)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=aws,gcp)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=mysql,mongodb)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=vscode,eclipse,vim)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=arch,ubuntu,linux)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=bash,markdown,postman)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=vercel,netlify)](https://skillicons.dev)|
+| [![My Skills](https://skillicons.dev/icons?i=python,java)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=nodejs,express,npm,bun)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=react,next,tailwind,bootstrap)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=redux,regex,rust,solidity)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=git,github,docker,kubernetes)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=githubactions,heroku,aws,gcp)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=mysql,mongodb)](https://skillicons.dev) | [![My Skills](https://skillicons.dev/icons?i=vscode,eclipse,linux,ubuntu)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=arch,powershell,bash,markdown)](https://skillicons.dev) <br> [![My Skills](https://skillicons.dev/icons?i=postman,vercel,netlify)](https://skillicons.dev) |
+
+</div>
 
 ---
 <br>
@@ -90,11 +89,12 @@
 <!-- Stats shown here -->
 
 # 👨🏻‍💻 Projects:
-| <img src="https://img.shields.io/static/v1?message=No.&label=&color=FDFD96&logoColor=black&labelColor=&style=for-the-badge" alt="number" /> | <img src="https://img.shields.io/static/v1?message=Name&label=&color=f68c70&logoColor=black&labelColor=&style=for-the-badge" alt="name_of_project" /> | <img src="https://img.shields.io/static/v1?message=techstack&label=&color=E6E6FA&logoColor=black&labelColor=&style=for-the-badge" alt="techstack" /> | <img src="https://img.shields.io/static/v1?message=github&label=&color=B0E0A8&logoColor=black&labelColor=&style=for-the-badge" alt="github" /> | <img src="https://img.shields.io/static/v1?message=live+link&label=&color=AEDFF2&logoColor=black&labelColor=&style=for-the-badge" alt="live_project_link" /> |
-| ---------- | ---------- | ----------- | ---------- | ---------- |
-| 01 | - | - | - | - |
-| 02 | - | - | - | - |
-| 03 | - | - | - | - |
+
+| <img src="https://img.shields.io/static/v1?message=Name&label=&color=f68c70&logoColor=black&labelColor=&style=for-the-badge" alt="name_of_project" /> | <img src="https://img.shields.io/static/v1?message=techstack&label=&color=E6E6FA&logoColor=black&labelColor=&style=for-the-badge" alt="techstack" /> | <img src="https://img.shields.io/static/v1?message=github&label=&color=B0E0A8&logoColor=black&labelColor=&style=for-the-badge" alt="github" /> | <img src="https://img.shields.io/static/v1?message=live+link&label=&color=AEDFF2&logoColor=black&labelColor=&style=for-the-badge" alt="live_project_link" /> |
+| ---------- | ----------- | ---------- | ---------- |
+| - | - | - | - |
+| - | - | - | - |
+| - | - | - | - |
 
 <br>
 
