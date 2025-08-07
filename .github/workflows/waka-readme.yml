@@ -1,0 +1,15 @@
+name: Update WakaTime Stats
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # Runs every day at 01:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          REPOSITORY: nihalsheikh/nihalsheikh  # This is your profile repo
