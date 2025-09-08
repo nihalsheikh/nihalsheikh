@@ -98,7 +98,7 @@
 
 | <img src="https://img.shields.io/static/v1?message=Name&label=&color=f68c70&logoColor=black&labelColor=&style=for-the-badge" alt="name_of_project" /> | <img src="https://img.shields.io/static/v1?message=techstack&label=&color=E6E6FA&logoColor=black&labelColor=&style=for-the-badge" alt="techstack" /> | <img src="https://img.shields.io/static/v1?message=github&label=&color=B0E0A8&logoColor=black&labelColor=&style=for-the-badge" alt="github" /> | <img src="https://img.shields.io/static/v1?message=live+link&label=&color=AEDFF2&logoColor=black&labelColor=&style=for-the-badge" alt="live_project_link" /> |
 | ---------- | ----------- | ---------- | ---------- |
-| - | - | - | - |
+| Montage Movies | [![My Skills](https://skillicons.dev/icons?i=js,react,vite,appwrite)](https://skillicons.dev) | [Git Repo](https://www.github.com/nihalsheikh/montage-movies) | [Visit Website](https://montage-movies.netlify.app/) |
 | - | - | - | - |
 | - | - | - | - |
 
