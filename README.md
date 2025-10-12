@@ -12,19 +12,19 @@
 
 <!-- Get in Touch -->
 <div align="center">
-    <a href="https://x.com/sshNihal">
+    <a href="https://x.com/sshNihal" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=x&logoColor=white" alt="Twitter/X" />
-    </a>
-    <a href="https://www.linkedin.com/in/nihalsheikh/">
+    </a>&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/nihalsheikh/" style="text-decoration: none;">
         <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff" alt="LinkedIn">
-    </a>
-    <a href="https://github.com/nihalsheikh">
+    </a>&nbsp;&nbsp;
+    <a href="https://github.com/nihalsheikh" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub">
-    </a>
-    <a href="mailto:nihalsheikh585@gmail.com">
+    </a>&nbsp;&nbsp;
+    <a href="mailto:nihalsheikh585@gmail.com" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail">
-    </a>
-    <a href="https://flowcv.me/nihalsheikh">
+    </a>&nbsp;&nbsp;
+    <a href="https://flowcv.me/nihalsheikh" style="text-decoration: none;">
         <img src="https://img.shields.io/static/v1?message=Portfolio&logo=netlify&label=&color=23ffbb&logoColor=black&labelColor=&style=flat" alt="Portfolio"  />
     </a>
 </div>
