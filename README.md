@@ -25,7 +25,7 @@
         <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail">
     </a>
     <a href="https://flowcv.me/nihalsheikh">
-        <img src="https://img.shields.io/static/v1?message=portfolio&logo=ko-fi&label=&color=green&logoColor=black&labelColor=&style=flat" alt="Portfolio"  />
+        <img src="https://img.shields.io/static/v1?message=Portfolio&logo=netlify&label=&color=23ffbb&logoColor=black&labelColor=&style=flat" alt="Portfolio"  />
     </a>
 </div>
 
