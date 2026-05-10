@@ -92,7 +92,6 @@
 
     <div style={{ display:'flex', gap:18, fontSize:12, color:'rgba(150,140,200,0.72)', fontWeight:500 }}>
       <div style={{ display:'flex' }}>📍 India</div>
-      <div style={{ display:'flex' }}>☕ Fueled by chai</div>
     </div>
 
     <div style={{ display:'flex', fontSize:12, color:'rgba(140,180,255,0.75)', fontWeight:500 }}>
@@ -112,6 +111,60 @@
     </div>
 
   </div>
+
+</div>
+```
+
+```aura width=860 height=110
+<div style={{
+  width:'100%', height:'100%', background:'#08080c',
+  display:'flex', alignItems:'center', justifyContent:'center',
+  fontFamily:'Inter', position:'relative', overflow:'hidden',
+  borderRadius:16, border:'1px solid rgba(80,60,200,0.18)',
+}}>
+
+  <style>{`
+    @keyframes sg1-drift { 0%,100%{transform:translateX(0);opacity:0.55} 50%{transform:translateX(200px);opacity:0.85} }
+    @keyframes sg2-drift { 0%,100%{transform:translateX(0);opacity:0.45} 50%{transform:translateX(-160px);opacity:0.80} }
+    #sg1 { animation: sg1-drift 14s ease-in-out infinite; }
+    #sg2 { animation: sg2-drift 11s ease-in-out infinite reverse; }
+  `}</style>
+
+  <svg width="860" height="110" style={{ position:'absolute', top:0, left:0 }}>
+    <defs>
+      <radialGradient id="sg1g" cx="50%" cy="50%" r="50%">
+        <stop offset="0%"  stopColor="rgba(40,80,255,0.48)" />
+        <stop offset="70%" stopColor="rgba(40,80,255,0)" />
+      </radialGradient>
+      <radialGradient id="sg2g" cx="50%" cy="50%" r="50%">
+        <stop offset="0%"  stopColor="rgba(130,30,255,0.42)" />
+        <stop offset="70%" stopColor="rgba(130,30,255,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="sg1" cx="200" cy="110" rx="280" ry="150" fill="url(#sg1g)" />
+    <ellipse id="sg2" cx="660" cy="110" rx="240" ry="140" fill="url(#sg2g)" />
+  </svg>
+
+  {[
+    { value: github.stats.totalRepos,   label: 'REPOS',   color: 'rgba(100,170,255,1)'  },
+    { value: github.stats.totalStars,   label: 'STARS',   color: 'rgba(255,200,80,1)'   },
+    { value: github.stats.totalCommits, label: 'COMMITS', color: 'rgba(180,130,255,1)'  },
+  ].map(function(stat, i) {
+    return (
+      <div key={stat.label} style={{
+        display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center',
+        flex:1, gap:5,
+        borderRight: i < 2 ? '1px solid rgba(80,60,180,0.20)' : 'none',
+      }}>
+        <div style={{ display:'flex', fontSize:44, fontWeight:800, color:stat.color, lineHeight:1, letterSpacing:'-1px' }}>
+          {stat.value || '—'}
+        </div>
+        <div style={{ display:'flex', fontSize:10, fontWeight:700, color:'rgba(120,110,170,0.55)', letterSpacing:'2.5px' }}>
+          {stat.label}
+        </div>
+      </div>
+    );
+  })}
 
 </div>
 ```
@@ -197,77 +250,145 @@
 </div>
 ```
 
-```aura width=158 height=44 link="https://x.com/sshNihal" inline align=center
-<SocialMediaButton
-  icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
-  text="Twitter / X"
-  backgroundColor="#0a0a0f"
-  textColor="rgba(180,190,255,0.92)"
-  width={158}
-  height={44}
-  gradientStops={[
-    { offset:'0%',   color:'#818cf8' },
-    { offset:'30%',  color:'#0a0a0f' },
-    { offset:'60%',  color:'#9298f8' },
-    { offset:'80%',  color:'#0a0a0f' },
-    { offset:'100%', color:'#7479f5' },
-  ]}
-/>
+```aura width=172 height=64 link="https://x.com/sshNihal" inline align=center
+<div style={{
+  width:'100%', height:'100%', background:'#08080c',
+  position:'relative', display:'flex', alignItems:'center', justifyContent:'center',
+  fontFamily:'Inter',
+}}>
+  <svg width="172" height="64" style={{ position:'absolute', top:0, left:0 }}>
+    <defs>
+      <radialGradient id="gx" cx="50%" cy="50%" r="50%">
+        <stop offset="0%"  stopColor="rgba(129,140,248,0.22)" />
+        <stop offset="100%" stopColor="rgba(129,140,248,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse cx="86" cy="32" rx="74" ry="32" fill="url(#gx)" />
+  </svg>
+  <svg width="148" height="44" style={{ position:'absolute', top:10, left:12 }}>
+    <defs>
+      <linearGradient id="btw" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="148" y2="22">
+        <stop offset="0%"   stopColor="#818cf8" />
+        <stop offset="28%"  stopColor="#0a0a0f" />
+        <stop offset="62%"  stopColor="#9298f8" />
+        <stop offset="84%"  stopColor="#0a0a0f" />
+        <stop offset="100%" stopColor="#7479f5" />
+        <animateTransform attributeName="gradientTransform" type="rotate" from="0 74 22" to="360 74 22" dur="6s" repeatCount="indefinite" />
+      </linearGradient>
+    </defs>
+    <rect x="0.5" y="0.5" width="147" height="43" rx="21.5" fill="#08080c" stroke="url(#btw)" strokeWidth="1.2" />
+  </svg>
+  <div style={{ display:'flex', alignItems:'center', gap:7 }}>
+    <img src="./icons/x-icon.svg" width={13} height={13} />
+    <div style={{ display:'flex', fontSize:13, fontWeight:600, color:'rgba(180,190,255,0.92)' }}>Twitter / X</div>
+  </div>
+</div>
 ```
 
-```aura width=138 height=44 link="https://www.linkedin.com/in/nihalsheikh/" inline align=center
-<SocialMediaButton
-  icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
-  text="LinkedIn"
-  backgroundColor="#0a0a0f"
-  textColor="rgba(160,200,255,0.92)"
-  width={138}
-  height={44}
-  gradientStops={[
-    { offset:'0%',   color:'#60a5fa' },
-    { offset:'30%',  color:'#0a0a0f' },
-    { offset:'60%',  color:'#93c5fd' },
-    { offset:'80%',  color:'#0a0a0f' },
-    { offset:'100%', color:'#3b82f6' },
-  ]}
-/>
+```aura width=152 height=64 link="https://www.linkedin.com/in/nihalsheikh/" inline align=center
+<div style={{
+  width:'100%', height:'100%', background:'#08080c',
+  position:'relative', display:'flex', alignItems:'center', justifyContent:'center',
+  fontFamily:'Inter',
+}}>
+  <svg width="152" height="64" style={{ position:'absolute', top:0, left:0 }}>
+    <defs>
+      <radialGradient id="gli" cx="50%" cy="50%" r="50%">
+        <stop offset="0%"  stopColor="rgba(96,165,250,0.22)" />
+        <stop offset="100%" stopColor="rgba(96,165,250,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse cx="76" cy="32" rx="66" ry="32" fill="url(#gli)" />
+  </svg>
+  <svg width="128" height="44" style={{ position:'absolute', top:10, left:12 }}>
+    <defs>
+      <linearGradient id="bli" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="128" y2="22">
+        <stop offset="0%"   stopColor="#60a5fa" />
+        <stop offset="28%"  stopColor="#0a0a0f" />
+        <stop offset="62%"  stopColor="#93c5fd" />
+        <stop offset="84%"  stopColor="#0a0a0f" />
+        <stop offset="100%" stopColor="#3b82f6" />
+        <animateTransform attributeName="gradientTransform" type="rotate" from="0 64 22" to="360 64 22" dur="6s" repeatCount="indefinite" />
+      </linearGradient>
+    </defs>
+    <rect x="0.5" y="0.5" width="127" height="43" rx="21.5" fill="#08080c" stroke="url(#bli)" strokeWidth="1.2" />
+  </svg>
+  <div style={{ display:'flex', alignItems:'center', gap:7 }}>
+    <img src="./icons/linkedin-icon.png" width={13} height={13} />
+    <div style={{ display:'flex', fontSize:13, fontWeight:600, color:'rgba(160,200,255,0.92)' }}>LinkedIn</div>
+  </div>
+</div>
 ```
 
-```aura width=138 height=44 link="https://flowcv.me/nihalsheikh" inline align=center
-<SocialMediaButton
-  icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
-  text="Portfolio"
-  backgroundColor="#0a0a0f"
-  textColor="rgba(200,185,255,0.92)"
-  width={138}
-  height={44}
-  gradientStops={[
-    { offset:'0%',   color:'#b57af9' },
-    { offset:'30%',  color:'#0a0a0f' },
-    { offset:'60%',  color:'#c084fc' },
-    { offset:'80%',  color:'#0a0a0f' },
-    { offset:'100%', color:'#a855f7' },
-  ]}
-/>
+```aura width=152 height=64 link="https://flowcv.me/nihalsheikh" inline align=center
+<div style={{
+  width:'100%', height:'100%', background:'#08080c',
+  position:'relative', display:'flex', alignItems:'center', justifyContent:'center',
+  fontFamily:'Inter',
+}}>
+  <svg width="152" height="64" style={{ position:'absolute', top:0, left:0 }}>
+    <defs>
+      <radialGradient id="gpo" cx="50%" cy="50%" r="50%">
+        <stop offset="0%"  stopColor="rgba(181,122,249,0.22)" />
+        <stop offset="100%" stopColor="rgba(181,122,249,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse cx="76" cy="32" rx="66" ry="32" fill="url(#gpo)" />
+  </svg>
+  <svg width="128" height="44" style={{ position:'absolute', top:10, left:12 }}>
+    <defs>
+      <linearGradient id="bpo" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="128" y2="22">
+        <stop offset="0%"   stopColor="#b57af9" />
+        <stop offset="28%"  stopColor="#0a0a0f" />
+        <stop offset="62%"  stopColor="#c084fc" />
+        <stop offset="84%"  stopColor="#0a0a0f" />
+        <stop offset="100%" stopColor="#a855f7" />
+        <animateTransform attributeName="gradientTransform" type="rotate" from="0 64 22" to="360 64 22" dur="6s" repeatCount="indefinite" />
+      </linearGradient>
+    </defs>
+    <rect x="0.5" y="0.5" width="127" height="43" rx="21.5" fill="#08080c" stroke="url(#bpo)" strokeWidth="1.2" />
+  </svg>
+  <div style={{ display:'flex', alignItems:'center', gap:7 }}>
+    <img src="./icons/globe.svg" width={13} height={13} />
+    <div style={{ display:'flex', fontSize:13, fontWeight:600, color:'rgba(200,185,255,0.92)' }}>Portfolio</div>
+  </div>
+</div>
 ```
 
-```aura width=118 height=44 link="mailto:nihalsheikh585@gmail.com" inline align=center
-<SocialMediaButton
-  icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
-  text="Gmail"
-  backgroundColor="#0a0a0f"
-  textColor="rgba(255,180,160,0.92)"
-  width={118}
-  height={44}
-  gradientStops={[
-    { offset:'0%',   color:'#f87171' },
-    { offset:'30%',  color:'#0a0a0f' },
-    { offset:'60%',  color:'#fb923c' },
-    { offset:'80%',  color:'#0a0a0f' },
-    { offset:'100%', color:'#ef4444' },
-  ]}
-/>
+```aura width=128 height=64 link="mailto:nihalsheikh585@gmail.com" inline align=center
+<div style={{
+  width:'100%', height:'100%', background:'#08080c',
+  position:'relative', display:'flex', alignItems:'center', justifyContent:'center',
+  fontFamily:'Inter',
+}}>
+  <svg width="128" height="64" style={{ position:'absolute', top:0, left:0 }}>
+    <defs>
+      <radialGradient id="ggm" cx="50%" cy="50%" r="50%">
+        <stop offset="0%"  stopColor="rgba(248,113,113,0.22)" />
+        <stop offset="100%" stopColor="rgba(248,113,113,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse cx="64" cy="32" rx="54" ry="32" fill="url(#ggm)" />
+  </svg>
+  <svg width="104" height="44" style={{ position:'absolute', top:10, left:12 }}>
+    <defs>
+      <linearGradient id="bgm" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="104" y2="22">
+        <stop offset="0%"   stopColor="#f87171" />
+        <stop offset="28%"  stopColor="#0a0a0f" />
+        <stop offset="62%"  stopColor="#fb923c" />
+        <stop offset="84%"  stopColor="#0a0a0f" />
+        <stop offset="100%" stopColor="#ef4444" />
+        <animateTransform attributeName="gradientTransform" type="rotate" from="0 52 22" to="360 52 22" dur="6s" repeatCount="indefinite" />
+      </linearGradient>
+    </defs>
+    <rect x="0.5" y="0.5" width="103" height="43" rx="21.5" fill="#08080c" stroke="url(#bgm)" strokeWidth="1.2" />
+  </svg>
+  <div style={{ display:'flex', alignItems:'center', gap:7 }}>
+    <img src="./icons/gmail-icon.svg" width={13} height={13} />
+    <div style={{ display:'flex', fontSize:13, fontWeight:600, color:'rgba(255,180,160,0.92)' }}>Gmail</div>
+  </div>
+</div>
 ```
 
 <br>
-<p align="center"><sub>nihalsheikh &nbsp;·&nbsp; fueled by chai and compile errors</sub></p>
+<p align="center"><sub>nihalsheikh &nbsp;·&nbsp; fueled by chai and compile errors ☕</sub></p>
