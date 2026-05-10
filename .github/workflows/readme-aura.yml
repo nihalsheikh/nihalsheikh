@@ -3,7 +3,9 @@ name: Generate README
 on:
   push:
     branches: [main]
-    paths: ["readme.source.md"]
+    paths:
+      - "readme.source.md"
+      - ".github/workflows/readme-aura.yml"
   schedule:
     # Runs daily at 6am UTC to keep GitHub stats fresh
     - cron: "0 6 * * *"
@@ -16,9 +18,16 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Generate README
         uses: collectioneur/readme-aura@main
         with:
+          source: readme.source.md
+          output: README.md
+          assets_dir: .github/assets
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user: nihalsheikh
+          auto_commit: "true"
+          commit_message: "chore: generate README via readme-aura"
