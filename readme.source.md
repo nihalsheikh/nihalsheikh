@@ -250,143 +250,185 @@
 </div>
 ```
 
-```aura width=172 height=64 link="https://x.com/sshNihal" inline align=center
+```aura width=860 height=96
 <div style={{
-  width:'100%', height:'100%', background:'#08080c',
-  position:'relative', display:'flex', alignItems:'center', justifyContent:'center',
+  width:'100%',
+  height:'100%',
+  background:'#08080c',
+  position:'relative',
+  overflow:'hidden',
+  display:'flex',
+  alignItems:'center',
+  justifyContent:'center',
+  gap:0,
+  borderRadius:16,
+  border:'1px solid rgba(110,80,220,0.18)',
   fontFamily:'Inter',
 }}>
-  <svg width="172" height="64" style={{ position:'absolute', top:0, left:0 }}>
-    <defs>
-      <radialGradient id="gx" cx="50%" cy="50%" r="50%">
-        <stop offset="0%"  stopColor="rgba(129,140,248,0.22)" />
-        <stop offset="100%" stopColor="rgba(129,140,248,0)" />
-      </radialGradient>
-    </defs>
-    <ellipse cx="86" cy="32" rx="74" ry="32" fill="url(#gx)" />
-  </svg>
-  <svg width="148" height="44" style={{ position:'absolute', top:10, left:12 }}>
-    <defs>
-      <linearGradient id="btw" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="148" y2="22">
-        <stop offset="0%"   stopColor="#818cf8" />
-        <stop offset="28%"  stopColor="#0a0a0f" />
-        <stop offset="62%"  stopColor="#9298f8" />
-        <stop offset="84%"  stopColor="#0a0a0f" />
-        <stop offset="100%" stopColor="#7479f5" />
-        <animateTransform attributeName="gradientTransform" type="rotate" from="0 74 22" to="360 74 22" dur="6s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
-    <rect x="0.5" y="0.5" width="147" height="43" rx="21.5" fill="#08080c" stroke="url(#btw)" strokeWidth="1.2" />
-  </svg>
-  <div style={{ display:'flex', alignItems:'center', gap:7 }}>
-    <img src="./icons/x-icon.svg" width={13} height={13} />
-    <div style={{ display:'flex', fontSize:13, fontWeight:600, color:'rgba(180,190,255,0.92)' }}>Twitter / X</div>
-  </div>
-</div>
-```
 
-```aura width=152 height=64 link="https://www.linkedin.com/in/nihalsheikh/" inline align=center
-<div style={{
-  width:'100%', height:'100%', background:'#08080c',
-  position:'relative', display:'flex', alignItems:'center', justifyContent:'center',
-  fontFamily:'Inter',
-}}>
-  <svg width="152" height="64" style={{ position:'absolute', top:0, left:0 }}>
-    <defs>
-      <radialGradient id="gli" cx="50%" cy="50%" r="50%">
-        <stop offset="0%"  stopColor="rgba(96,165,250,0.22)" />
-        <stop offset="100%" stopColor="rgba(96,165,250,0)" />
-      </radialGradient>
-    </defs>
-    <ellipse cx="76" cy="32" rx="66" ry="32" fill="url(#gli)" />
-  </svg>
-  <svg width="128" height="44" style={{ position:'absolute', top:10, left:12 }}>
-    <defs>
-      <linearGradient id="bli" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="128" y2="22">
-        <stop offset="0%"   stopColor="#60a5fa" />
-        <stop offset="28%"  stopColor="#0a0a0f" />
-        <stop offset="62%"  stopColor="#93c5fd" />
-        <stop offset="84%"  stopColor="#0a0a0f" />
-        <stop offset="100%" stopColor="#3b82f6" />
-        <animateTransform attributeName="gradientTransform" type="rotate" from="0 64 22" to="360 64 22" dur="6s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
-    <rect x="0.5" y="0.5" width="127" height="43" rx="21.5" fill="#08080c" stroke="url(#bli)" strokeWidth="1.2" />
-  </svg>
-  <div style={{ display:'flex', alignItems:'center', gap:7 }}>
-    <img src="./icons/linkedin-icon.png" width={13} height={13} />
-    <div style={{ display:'flex', fontSize:13, fontWeight:600, color:'rgba(160,200,255,0.92)' }}>LinkedIn</div>
-  </div>
-</div>
-```
+  <style>{`
+    @keyframes social-drift {
+      0%,100% {
+        transform:translateX(0px);
+        opacity:0.45;
+      }
+      50% {
+        transform:translateX(220px);
+        opacity:0.75;
+      }
+    }
 
-```aura width=152 height=64 link="https://flowcv.me/nihalsheikh" inline align=center
-<div style={{
-  width:'100%', height:'100%', background:'#08080c',
-  position:'relative', display:'flex', alignItems:'center', justifyContent:'center',
-  fontFamily:'Inter',
-}}>
-  <svg width="152" height="64" style={{ position:'absolute', top:0, left:0 }}>
-    <defs>
-      <radialGradient id="gpo" cx="50%" cy="50%" r="50%">
-        <stop offset="0%"  stopColor="rgba(181,122,249,0.22)" />
-        <stop offset="100%" stopColor="rgba(181,122,249,0)" />
-      </radialGradient>
-    </defs>
-    <ellipse cx="76" cy="32" rx="66" ry="32" fill="url(#gpo)" />
-  </svg>
-  <svg width="128" height="44" style={{ position:'absolute', top:10, left:12 }}>
-    <defs>
-      <linearGradient id="bpo" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="128" y2="22">
-        <stop offset="0%"   stopColor="#b57af9" />
-        <stop offset="28%"  stopColor="#0a0a0f" />
-        <stop offset="62%"  stopColor="#c084fc" />
-        <stop offset="84%"  stopColor="#0a0a0f" />
-        <stop offset="100%" stopColor="#a855f7" />
-        <animateTransform attributeName="gradientTransform" type="rotate" from="0 64 22" to="360 64 22" dur="6s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
-    <rect x="0.5" y="0.5" width="127" height="43" rx="21.5" fill="#08080c" stroke="url(#bpo)" strokeWidth="1.2" />
-  </svg>
-  <div style={{ display:'flex', alignItems:'center', gap:7 }}>
-    <img src="./icons/globe.svg" width={13} height={13} />
-    <div style={{ display:'flex', fontSize:13, fontWeight:600, color:'rgba(200,185,255,0.92)' }}>Portfolio</div>
-  </div>
-</div>
-```
+    @keyframes border-rotate {
+      from {
+        transform:rotate(0deg);
+      }
+      to {
+        transform:rotate(360deg);
+      }
+    }
 
-```aura width=128 height=64 link="mailto:nihalsheikh585@gmail.com" inline align=center
-<div style={{
-  width:'100%', height:'100%', background:'#08080c',
-  position:'relative', display:'flex', alignItems:'center', justifyContent:'center',
-  fontFamily:'Inter',
-}}>
-  <svg width="128" height="64" style={{ position:'absolute', top:0, left:0 }}>
+    #social-bg {
+      animation:social-drift 14s ease-in-out infinite;
+    }
+  `}</style>
+
+  <svg
+    width="860"
+    height="96"
+    style={{
+      position:'absolute',
+      top:0,
+      left:0,
+    }}
+  >
     <defs>
-      <radialGradient id="ggm" cx="50%" cy="50%" r="50%">
-        <stop offset="0%"  stopColor="rgba(248,113,113,0.22)" />
-        <stop offset="100%" stopColor="rgba(248,113,113,0)" />
+
+      <radialGradient id="socialGlow">
+        <stop offset="0%" stopColor="rgba(110,20,210,0.38)" />
+        <stop offset="70%" stopColor="rgba(110,20,210,0)" />
       </radialGradient>
+
     </defs>
-    <ellipse cx="64" cy="32" rx="54" ry="32" fill="url(#ggm)" />
+
+    <ellipse
+      id="social-bg"
+      cx="180"
+      cy="90"
+      rx="340"
+      ry="180"
+      fill="url(#socialGlow)"
+    />
+
   </svg>
-  <svg width="104" height="44" style={{ position:'absolute', top:10, left:12 }}>
-    <defs>
-      <linearGradient id="bgm" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="104" y2="22">
-        <stop offset="0%"   stopColor="#f87171" />
-        <stop offset="28%"  stopColor="#0a0a0f" />
-        <stop offset="62%"  stopColor="#fb923c" />
-        <stop offset="84%"  stopColor="#0a0a0f" />
-        <stop offset="100%" stopColor="#ef4444" />
-        <animateTransform attributeName="gradientTransform" type="rotate" from="0 52 22" to="360 52 22" dur="6s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
-    <rect x="0.5" y="0.5" width="103" height="43" rx="21.5" fill="#08080c" stroke="url(#bgm)" strokeWidth="1.2" />
-  </svg>
-  <div style={{ display:'flex', alignItems:'center', gap:7 }}>
-    <img src="./icons/gmail-icon.svg" width={13} height={13} />
-    <div style={{ display:'flex', fontSize:13, fontWeight:600, color:'rgba(255,180,160,0.92)' }}>Gmail</div>
-  </div>
+
+  {[
+    {
+      label:'Twitter / X',
+      icon:'./icons/x-icon.svg',
+      width:172,
+      color1:'#818cf8',
+      color2:'#6366f1',
+      text:'rgba(190,200,255,0.92)',
+      link:'https://x.com/sshNihal',
+    },
+    {
+      label:'LinkedIn',
+      icon:'./icons/linkedin-icon.png',
+      width:156,
+      color1:'#60a5fa',
+      color2:'#3b82f6',
+      text:'rgba(160,210,255,0.92)',
+      link:'https://linkedin.com/in/nihalsheikh',
+    },
+    {
+      label:'Portfolio',
+      icon:'./icons/globe.svg',
+      width:156,
+      color1:'#c084fc',
+      color2:'#a855f7',
+      text:'rgba(220,200,255,0.92)',
+      link:'https://flowcv.me/nihalsheikh',
+    },
+    {
+      label:'Gmail',
+      icon:'./icons/gmail-icon.svg',
+      width:132,
+      color1:'#fb923c',
+      color2:'#ef4444',
+      text:'rgba(255,210,180,0.92)',
+      link:'mailto:nihalsheikh585@gmail.com',
+    },
+  ].map(function(btn) {
+
+    return (
+      <a
+        key={btn.label}
+        href={btn.link}
+        style={{
+          display:'flex',
+          textDecoration:'none',
+          margin:'0 8px',
+        }}
+      >
+
+        <div style={{
+          width:btn.width,
+          height:52,
+          position:'relative',
+          display:'flex',
+          alignItems:'center',
+          justifyContent:'center',
+          overflow:'hidden',
+          borderRadius:26,
+        }}>
+
+          <div style={{
+            position:'absolute',
+            width:220,
+            height:220,
+            borderRadius:999,
+            background:'linear-gradient(90deg, ' + btn.color1 + ', transparent, ' + btn.color2 + ')',
+            animation:'border-rotate 6s linear infinite',
+          }} />
+
+          <div style={{
+            position:'absolute',
+            top:1,
+            left:1,
+            right:1,
+            bottom:1,
+            borderRadius:25,
+            background:'#08080c',
+            display:'flex',
+            alignItems:'center',
+            justifyContent:'center',
+            gap:7,
+          }}>
+
+            <img
+              src={btn.icon}
+              width={13}
+              height={13}
+            />
+
+            <div style={{
+              display:'flex',
+              fontSize:13,
+              fontWeight:600,
+              color:btn.text,
+            }}>
+              {btn.label}
+            </div>
+
+          </div>
+
+        </div>
+
+      </a>
+    );
+
+  })}
+
 </div>
 ```
 
