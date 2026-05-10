@@ -3,9 +3,10 @@ name: Generate README
 on:
   push:
     branches: [main]
-    paths: ['readme.source.md']
+    paths: ["readme.source.md"]
   schedule:
-    - cron: '0 6 * * *'
+    # Runs daily at 6am UTC to keep GitHub stats fresh
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
