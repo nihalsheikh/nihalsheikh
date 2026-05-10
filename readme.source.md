@@ -87,21 +87,20 @@
     </div>
 
     <div style={{ display:'flex', fontSize:14, color:'rgba(180,165,255,0.82)', fontWeight:500, letterSpacing:'0.2px' }}>
-      Fullstack Developer · Open Source Builder · AI Tinkerer
+      Software Engineer · Fullstack Developer · Web3 Enthusiast
     </div>
 
     <div style={{ display:'flex', gap:18, fontSize:12, color:'rgba(150,140,200,0.72)', fontWeight:500 }}>
-      <div style={{ display:'flex' }}>📍 Nagpur, India</div>
-      <div style={{ display:'flex' }}>🎓 CSE · G.H. Raisoni, Pune 2024</div>
-      <div style={{ display:'flex' }}>☕ Runs on chai</div>
+      <div style={{ display:'flex' }}>📍 India</div>
+      <div style={{ display:'flex' }}>☕ Fueled by chai</div>
     </div>
 
     <div style={{ display:'flex', fontSize:12, color:'rgba(140,180,255,0.75)', fontWeight:500 }}>
-      🔨 Building SnippetVault &nbsp;·&nbsp; 🚀 Open to full-time &amp; freelance
+      🔨 Currently building SnippetVault &nbsp;·&nbsp; 🚀 Open to full-time &amp; freelance
     </div>
 
     <div style={{ display:'flex', gap:7, marginTop:2 }}>
-      {['Python', 'TypeScript', 'Next.js', 'React'].map(function(tag) {
+      {['Python', 'TypeScript', 'JavaScript', 'React', 'Next.js'].map(function(tag) {
         return (
           <div key={tag} style={{
             display:'flex', padding:'4px 13px', borderRadius:20,
@@ -155,21 +154,21 @@
     },
     {
       label: 'FRONTEND',
-      tags:  ['React', 'Next.js', 'Tailwind CSS', 'HTML', 'CSS'],
+      tags:  ['React', 'Next.js', 'Tailwind CSS', 'HTML5', 'CSS3'],
       color: 'rgba(110,195,255,0.92)',
       bg:    'rgba(10,45,100,0.28)',
       border:'rgba(40,120,255,0.32)',
     },
     {
       label: 'BACKEND & DB',
-      tags:  ['PostgreSQL', 'MongoDB', 'MySQL', 'Prisma', 'Zod'],
+      tags:  ['PostgreSQL', 'MongoDB', 'MySQL', 'Prisma', 'Neon', 'Supabase', 'Zod'],
       color: 'rgba(175,145,255,0.92)',
       bg:    'rgba(55,25,130,0.26)',
       border:'rgba(110,65,245,0.32)',
     },
     {
       label: 'TOOLS & AI',
-      tags:  ['Docker', 'Git', 'Linux', 'Vercel', 'Ollama', 'OpenRouter', 'Claude Code'],
+      tags:  ['Docker', 'Git', 'Linux', 'Vercel', 'Ollama', 'OpenRouter', 'Claude Code', 'Gemini CLI'],
       color: 'rgba(90,215,175,0.92)',
       bg:    'rgba(0,55,38,0.26)',
       border:'rgba(30,165,115,0.32)',
@@ -216,7 +215,7 @@
 />
 ```
 
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 
 ```aura width=128 height=44 link="https://www.linkedin.com/in/nihalsheikh/" inline align=center
 <SocialMediaButton
@@ -236,7 +235,7 @@
 />
 ```
 
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 
 ```aura width=128 height=44 link="https://flowcv.me/nihalsheikh" inline align=center
 <SocialMediaButton
@@ -256,7 +255,7 @@
 />
 ```
 
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 
 ```aura width=108 height=44 link="mailto:nihalsheikh585@gmail.com" inline align=center
 <SocialMediaButton
