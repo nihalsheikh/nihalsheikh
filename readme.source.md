@@ -197,13 +197,13 @@
 </div>
 ```
 
-```aura width=148 height=44 link="https://x.com/sshNihal" inline align=center
+```aura width=158 height=44 link="https://x.com/sshNihal" inline align=center
 <SocialMediaButton
   icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
   text="Twitter / X"
   backgroundColor="#0a0a0f"
   textColor="rgba(180,190,255,0.92)"
-  width={148}
+  width={158}
   height={44}
   gradientStops={[
     { offset:'0%',   color:'#818cf8' },
@@ -215,15 +215,13 @@
 />
 ```
 
-&nbsp;&nbsp;&nbsp;
-
-```aura width=128 height=44 link="https://www.linkedin.com/in/nihalsheikh/" inline align=center
+```aura width=138 height=44 link="https://www.linkedin.com/in/nihalsheikh/" inline align=center
 <SocialMediaButton
   icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
   text="LinkedIn"
   backgroundColor="#0a0a0f"
   textColor="rgba(160,200,255,0.92)"
-  width={128}
+  width={138}
   height={44}
   gradientStops={[
     { offset:'0%',   color:'#60a5fa' },
@@ -235,15 +233,13 @@
 />
 ```
 
-&nbsp;&nbsp;&nbsp;
-
-```aura width=128 height=44 link="https://flowcv.me/nihalsheikh" inline align=center
+```aura width=138 height=44 link="https://flowcv.me/nihalsheikh" inline align=center
 <SocialMediaButton
   icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
   text="Portfolio"
   backgroundColor="#0a0a0f"
   textColor="rgba(200,185,255,0.92)"
-  width={128}
+  width={138}
   height={44}
   gradientStops={[
     { offset:'0%',   color:'#b57af9' },
@@ -255,15 +251,13 @@
 />
 ```
 
-&nbsp;&nbsp;&nbsp;
-
-```aura width=108 height=44 link="mailto:nihalsheikh585@gmail.com" inline align=center
+```aura width=118 height=44 link="mailto:nihalsheikh585@gmail.com" inline align=center
 <SocialMediaButton
   icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
   text="Gmail"
   backgroundColor="#0a0a0f"
   textColor="rgba(255,180,160,0.92)"
-  width={108}
+  width={118}
   height={44}
   gradientStops={[
     { offset:'0%',   color:'#f87171' },
