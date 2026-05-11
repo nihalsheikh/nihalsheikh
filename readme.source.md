@@ -250,186 +250,72 @@
 </div>
 ```
 
-```aura width=860 height=96
-<div style={{
-  width:'100%',
-  height:'100%',
-  background:'#08080c',
-  position:'relative',
-  overflow:'hidden',
-  display:'flex',
-  alignItems:'center',
-  justifyContent:'center',
-  gap:0,
-  borderRadius:16,
-  border:'1px solid rgba(110,80,220,0.18)',
-  fontFamily:'Inter',
-}}>
+```aura width=120 height=44 link="https://www.linkedin.com/in/nihalsheikh/" inline align=center
+<SocialMediaButton
+  icon="https://raw.githubusercontent.com/nihalsheikh/nihalsheikh/main/icons/linkedin-icon.png"
+  text="LinkedIn"
+  backgroundColor="#000000"
+  width={120}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#b57af9' },
+    { offset: '30%', color: '#000000' },
+    { offset: '60%', color: '#9d6bf0' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#c89dfb' },
+  ]}
+/>
+```
 
-  <style>{`
-    @keyframes social-drift {
-      0%,100% {
-        transform:translateX(0px);
-        opacity:0.45;
-      }
-      50% {
-        transform:translateX(220px);
-        opacity:0.75;
-      }
-    }
+```aura width=138 height=44 link="https://x.com/sshNihal" inline align=center
+<SocialMediaButton
+  icon="https://raw.githubusercontent.com/nihalsheikh/nihalsheikh/main/icons/x-icon.svg"
+  text="Twitter / X"
+  backgroundColor="#000000"
+  width={138}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#818cf8' },
+    { offset: '30%', color: '#000000' },
+    { offset: '60%', color: '#9298f8' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#7479f5' },
+  ]}
+/>
+```
 
-    @keyframes border-rotate {
-      from {
-        transform:rotate(0deg);
-      }
-      to {
-        transform:rotate(360deg);
-      }
-    }
+```aura width=138 height=44 link="https://flowcv.me/nihalsheikh" inline align=center
+<SocialMediaButton
+  icon="https://raw.githubusercontent.com/nihalsheikh/nihalsheikh/main/icons/globe.svg"
+  text="Portfolio"
+  backgroundColor="#000000"
+  width={138}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#818cf8' },
+    { offset: '30%', color: '#000000' },
+    { offset: '60%', color: '#9298f8' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#7479f5' },
+  ]}
+/>
+```
 
-    #social-bg {
-      animation:social-drift 14s ease-in-out infinite;
-    }
-  `}</style>
-
-  <svg
-    width="860"
-    height="96"
-    style={{
-      position:'absolute',
-      top:0,
-      left:0,
-    }}
-  >
-    <defs>
-
-      <radialGradient id="socialGlow">
-        <stop offset="0%" stopColor="rgba(110,20,210,0.38)" />
-        <stop offset="70%" stopColor="rgba(110,20,210,0)" />
-      </radialGradient>
-
-    </defs>
-
-    <ellipse
-      id="social-bg"
-      cx="180"
-      cy="90"
-      rx="340"
-      ry="180"
-      fill="url(#socialGlow)"
-    />
-
-  </svg>
-
-  {[
-    {
-      label:'Twitter / X',
-      icon:'./icons/x-icon.svg',
-      width:172,
-      color1:'#818cf8',
-      color2:'#6366f1',
-      text:'rgba(190,200,255,0.92)',
-      link:'https://x.com/sshNihal',
-    },
-    {
-      label:'LinkedIn',
-      icon:'./icons/linkedin-icon.png',
-      width:156,
-      color1:'#60a5fa',
-      color2:'#3b82f6',
-      text:'rgba(160,210,255,0.92)',
-      link:'https://linkedin.com/in/nihalsheikh',
-    },
-    {
-      label:'Portfolio',
-      icon:'./icons/globe.svg',
-      width:156,
-      color1:'#c084fc',
-      color2:'#a855f7',
-      text:'rgba(220,200,255,0.92)',
-      link:'https://flowcv.me/nihalsheikh',
-    },
-    {
-      label:'Gmail',
-      icon:'./icons/gmail-icon.svg',
-      width:132,
-      color1:'#fb923c',
-      color2:'#ef4444',
-      text:'rgba(255,210,180,0.92)',
-      link:'mailto:nihalsheikh585@gmail.com',
-    },
-  ].map(function(btn) {
-
-    return (
-      <a
-        key={btn.label}
-        href={btn.link}
-        style={{
-          display:'flex',
-          textDecoration:'none',
-          margin:'0 8px',
-        }}
-      >
-
-        <div style={{
-          width:btn.width,
-          height:52,
-          position:'relative',
-          display:'flex',
-          alignItems:'center',
-          justifyContent:'center',
-          overflow:'hidden',
-          borderRadius:26,
-        }}>
-
-          <div style={{
-            position:'absolute',
-            width:220,
-            height:220,
-            borderRadius:999,
-            background:'linear-gradient(90deg, ' + btn.color1 + ', transparent, ' + btn.color2 + ')',
-            animation:'border-rotate 6s linear infinite',
-          }} />
-
-          <div style={{
-            position:'absolute',
-            top:1,
-            left:1,
-            right:1,
-            bottom:1,
-            borderRadius:25,
-            background:'#08080c',
-            display:'flex',
-            alignItems:'center',
-            justifyContent:'center',
-            gap:7,
-          }}>
-
-            <img
-              src={btn.icon}
-              width={13}
-              height={13}
-            />
-
-            <div style={{
-              display:'flex',
-              fontSize:13,
-              fontWeight:600,
-              color:btn.text,
-            }}>
-              {btn.label}
-            </div>
-
-          </div>
-
-        </div>
-
-      </a>
-    );
-
-  })}
-
-</div>
+```aura width=110 height=44 link="mailto:nihalsheikh585@gmail.com" inline align=center
+<SocialMediaButton
+  icon="https://raw.githubusercontent.com/nihalsheikh/nihalsheikh/main/icons/gmail-icon.svg"
+  text="Email"
+  backgroundColor="#000000"
+  width={110}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#d855f7' },
+    { offset: '30%', color: '#000000' },
+    { offset: '60%', color: '#b557e8' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#cc6ef9' },
+  ]}
+/>
 ```
 
 <br>
